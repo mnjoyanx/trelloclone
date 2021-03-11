@@ -17,8 +17,11 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         // factory(User::class, 20)->create();
+
         User::factory()
             ->count(50)
             ->create();
+
+
     }
 }
